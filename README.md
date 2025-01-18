@@ -45,7 +45,12 @@ A **FastAPI**-based face recognition server that provides endpoints to register 
    ```bash
    git clone https://github.com/your-username/face-recognition-server.git
    cd face-recognition-server
+## Folder Structure
 
+```bash
+face-recognition-server/
+│
+├─ main.py              # Main FastAPI application
 ├─ requirements.txt     # Required dependencies
 ├─ encodings/           # Folder automatically created for family members
 │  └─ Patient_12345/
